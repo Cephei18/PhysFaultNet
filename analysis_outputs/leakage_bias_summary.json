@@ -1,0 +1,8 @@
+{
+  "binary_samples_used": 5796,
+  "rpm_only_cv_acc_mean": 0.9658385647555858,
+  "rpm_only_cv_auc_mean": 0.8838660668252659,
+  "rpm_only_groupcv_acc_mean": 0.965718199133202,
+  "rpm_only_groupcv_auc_mean": 0.940211488879263,
+  "train_test_exact_duplicate_signals": 0
+}

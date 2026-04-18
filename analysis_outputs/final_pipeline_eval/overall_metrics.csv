@@ -1,0 +1,2 @@
+scope,n_samples,healthy_n,faulty_n,roc_auc,pr_auc,healthy_mean,faulty_mean,mean_gap_faulty_minus_healthy,roc_auc_std_across_subsets,pr_auc_std_across_subsets
+overall,5642,5598,44,0.81748351684043,0.07345742991487429,-9.044303679933137,-0.17224944000313094,8.872054239930005,0.09828514517592779,0.22162529336172926

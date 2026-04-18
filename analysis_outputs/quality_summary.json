@@ -1,0 +1,10 @@
+{
+  "total_samples": 6644,
+  "missing_rpm": 0,
+  "zero_rpm": 154,
+  "nan_signal_values": 0,
+  "inf_signal_values": 0,
+  "non_binary_labels": 848,
+  "outliers_rms_3sigma": 156,
+  "outliers_kurtosis_3sigma": 8
+}

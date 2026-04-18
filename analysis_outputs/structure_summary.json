@@ -1,0 +1,19 @@
+{
+  "total_mat_files": 22,
+  "total_samples": 6644,
+  "folders": 11,
+  "signal_length_unique": [
+    8192,
+    16384
+  ],
+  "sampling_rate_unique": [
+    512.0,
+    640.0,
+    2560.0,
+    4096.0,
+    5120.0,
+    6400.0,
+    8192.0,
+    12800.0
+  ]
+}

@@ -1,0 +1,57 @@
+# -----------------------------------------------------------------------------
+# PhySense-AI: repository hygiene for a hackathon ML project
+# Keep source code, configs, trained models, plots, and evaluation outputs.
+# Ignore only raw data, caches, temporary files, and local development artifacts.
+# -----------------------------------------------------------------------------
+
+# --- Operating system files --------------------------------------------------
+.DS_Store
+Thumbs.db
+
+# --- Python bytecode / cache -------------------------------------------------
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual environments ----------------------------------------------------
+.venv/
+venv/
+env/
+
+# --- Jupyter notebook checkpoints -------------------------------------------
+.ipynb_checkpoints/
+
+# --- Logs, temporary files, and local scratch data ---------------------------
+*.log
+*.tmp
+cache/
+temp/
+checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Raw datasets (do NOT commit large source data) --------------------------
+# Keep a small demo subset in data/sample/ if you need a lightweight example.
+data/raw/
+SCA bearing dataset/
+
+# Raw dataset dumps / intermediates (if you store them under a raw folder)
+data/raw/**/*.csv
+data/raw/**/*.mat
+
+# --- Large intermediate artifacts -------------------------------------------
+# Keep final trained models if they are reasonably small (<100MB).
+# If a model grows too large, compress it or retain only the final inference model.
+# Do not ignore trained_models/ or presentation_assets/ because they contain
+# final figures and model artifacts useful for evaluation/presentation.
+
+# --- Optional build / packaging outputs -------------------------------------
+dist/
+build/
+*.egg-info/
+
+# --- Editor settings (optional, keep if you want clean repo state) ----------
+.vscode/
